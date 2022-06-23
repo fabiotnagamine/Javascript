@@ -4,7 +4,7 @@ null, (bihigt, symbol) - Valor
 */
 
 let nome = 'Fábio';
-nome =  'Takashi';
+nome = 'Takashi';
 nome[0] = 'N'; // como a string é imutável não podemos modificar a letra
 console.log(nome);
 
@@ -19,16 +19,17 @@ console.log(aa, bb);
 
 
 /* Tipos de dados por referência (mutável) - Array, object, function; --> Passados por referência
-*/
+ */
 
-let a = [1,2,3];
+let a = [1, 2, 3];
 let b = a;
-console.log(a,b);  // Nesse caso podemos alterar o valor da variável inicial irá mudar na segunda
+console.log(a, b); // Nesse caso podemos alterar o valor da variável inicial irá mudar na segunda
 
 a.push(4, 5, 6);
 console.log(a, b);
 
 b.pop();
+b.pop();
 
 
-console.log(a, b); //também modifica tanto em a quanto em b 
+console.log(a, b); //também modifica tanto em a quanto em b
